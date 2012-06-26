@@ -1,0 +1,15 @@
+name = Boolean
+description = Defines boolean field type.
+package = Fields
+version = VERSION
+core = 7.x
+dependencies[] = field
+;files[] = boolean.module
+;files[] = boolean.test
+
+; Information added by drupal.org packaging script on 2011-04-21
+version = "7.x-1.0"
+core = "7.x"
+project = "boolean"
+datestamp = "1303397514"
+
