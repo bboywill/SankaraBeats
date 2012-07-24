@@ -4,18 +4,13 @@ global $base_url;
    <div id="header">
         <div id="top">
             <div class="container_12">
+                <div class="grid_9">&nbsp;</div>
                 <div class="grid_3">
-<!--
-                    <div id="rss">
-                    <span><?php print t('Subscribe') ?></span> <?php print t('by') ?> <a href="http://feeds.feedburner.com/<?php print theme_get_setting('tm_ac_feedburner') ?>"><?php print t('RSS') ?></a> <?php print t('or') ?> <a href="http://feedburner.google.com/fb/a/mailverify?uri=<?php print theme_get_setting('tm_ac_feedburner') ?>"><?php print t('Email') ?></a>
-                    </div>
--->
-                    <!--rss-->
-                </div><!--grid_3-->
-                <div class="grid_9">
 <!--
                     <div id="second_nav"><?php print repro_user_menu_top($logged_in, $front_page) ?></div>
 -->
+<a href="<?php theme_get_setting('sankara_contact_page') ?>">Contact</a>
+
                 </div><!--grid_9-->
                 <div class="clear"></div>
             </div><!--container_12-->
@@ -79,11 +74,13 @@ global $base_url;
         <div class="container_12">
             <div class="grid_3"><?php if (isset($page['footer_one'])) { echo render($page['footer_one']); } ?></div>
             <div class="grid_3">
+              <!--
               <div class="widget">
-                <h4><span><?php print t('Twitter'); ?></span></h4>
+                <h4><span><?php //print t('Twitter'); ?></span></h4>
                 <ul id="twitter_update_list"></ul>
-                <?php print repro_tw_js(); ?>
-              </div><!--widget-->
+                <?php //print repro_tw_js(); ?>
+              </div>
+              -->
               <?php if (isset($page['footer_two'])) { echo render($page['footer_two']); } ?>
             </div><!--grid_3-->
             <div class="grid_3"><?php if (isset($page['footer_three'])) { echo render($page['footer_three']); } ?></div>
@@ -93,7 +90,7 @@ global $base_url;
         <div id="footer_bottom">
             <div class="container_12">
                 <div class="grid_6"><?php if (isset($page['footer_copyright'])) { echo render($page['footer_copyright']); } ?></div>
-                <div class="grid_6"><p class="right">Designed by <a href="http://www.premiumpixels.com">Orman</a>. <a href="http://www.themesnap.com/">Drupal theme by ThemeSnap.com</a></p></div>
+                <div class="grid_6"><p class="right">Powered by SankaraProd</p></div>
                 <div class="clear"></div>
             </div><!--container_12-->
     	</div><!--footer_bottom-->
