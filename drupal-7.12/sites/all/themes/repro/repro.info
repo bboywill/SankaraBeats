@@ -34,6 +34,7 @@ regions[footer_four] = Footer Four
 regions[footer_copyright] = Footer Copyright
 
 stylesheets[all][] = css/style.css
+stylesheets[all][] = css/custom.css
 
 scripts[] = js/superfish.js
 scripts[] = js/jquery.coda-slider-2.0.js

@@ -1,0 +1,44 @@
+/* bloc fivestar */
+.region-sidebar-right-top .view-tutorial .views-row div {
+	float:right;
+}
+
+/* listing */
+.views-row {
+	margin-bottom:20px;
+}
+
+/* post teaser */
+.node-post.view-mode-teaser .group-left {
+	width:120px;
+}
+.node-post.view-mode-teaser .group-right {
+	width:490px;
+	patdding:10px 0;
+}
+.node-post.view-mode-teaser .field-name-post-date {
+	display:none;
+}
+
+/* post full */
+.node-post.view-mode-full .field-name-field-tags {
+	float:left;
+	padding-right:20px;
+}
+
+/* tuto teaser */
+.node-tutorial.view-mode-teaser .field-name-post-date {
+	float:left;
+	font-size:9px;
+	margin-right:10px;
+}
+.node-tutorial.view-mode-teaser .group-header {
+	margin-bottom:10px;
+}
+
+/* album teaser */
+.node-album-photo.view-mode-teaser .group-left {
+	width:190px;
+}
+.node-album-photo.view-mode-teaser .group-right {
+	width:420px;

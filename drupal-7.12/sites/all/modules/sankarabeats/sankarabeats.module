@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the SankaraBeats feature.
+ */
+
+include_once 'sankarabeats.features.inc';
