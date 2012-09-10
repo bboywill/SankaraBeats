@@ -20,7 +20,9 @@ Version: 1.0
 body{
 	font:12px/20px  "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color:#444444;
+	/*
 	background:url(../images/body_bg.gif) repeat;
+	*/
 }
 
 a{

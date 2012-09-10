@@ -1,15 +1,14 @@
 
 name = Repro
-description = Premium Drupal theme by <a href="http://www.themesnap.com">ThemeSnap.com</a>.
+description = Thème sanakarabeats basé sur repro
 screenshot = screenshot.png
 version = "7.x-1.0"
 core = 7.x
 
-settings[tm_ac_youtube] = http://www.youtube.com
-settings[tm_ac_flickr] = http://www.flickr.com
-settings[tm_ac_facebook] = http://www.facebook.com
-settings[sankara_contact_page] = nyi
-
+settings[sankara_youtube] = http://www.youtube.com
+settings[sankara_facebook] = http://www.facebook.com
+settings[sankara_twitter] = http://www.twitter.com
+settings[sankara_contact] = mailto:contact@sankarabeats.fr
 
 regions[sidebar_right_top] = Sidebar Right Top
 regions[sidebar_right_tab] = Sidebar Right Tab

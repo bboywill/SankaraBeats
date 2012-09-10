@@ -12,21 +12,28 @@ function repro_form_system_theme_settings_alter(&$form, $form_state) {
     '#title' => t('Accounts'),
   );
 
-  $form['advansed_theme_settings']['socacc']['tm_ac_twitter'] = array(
+  $form['advansed_theme_settings']['socacc']['sankara_twitter'] = array(
     '#type' => 'textfield',
     '#title' => t('Twitter'),
-    '#default_value' => theme_get_setting('tm_ac_twitter'),
+    '#default_value' => theme_get_setting('sankara_twitter'),
   );
-  $form['advansed_theme_settings']['socacc']['tm_ac_feedburner'] = array(
+
+  $form['advansed_theme_settings']['socacc']['sankara_youtube'] = array(
     '#type' => 'textfield',
-    '#title' => t('Feed Burner'),
-    '#default_value' => theme_get_setting('tm_ac_feedburner'),
+    '#title' => t('Youtube'),
+    '#default_value' => theme_get_setting('sankara_youtube'),
   );
-  /*
-  $form['advansed_theme_settings']['socacc']['tm_ac_flickr'] = array(
+
+  $form['advansed_theme_settings']['socacc']['sankara_contact'] = array(
     '#type' => 'textfield',
-    '#title' => t('Flickr'),
-    '#default_value' => theme_get_setting('tm_ac_flickr'),
+    '#title' => t('Contact'),
+    '#default_value' => theme_get_setting('sankara_contact'),
   );
-*/
+  
+  $form['advansed_theme_settings']['socacc']['sankara_facebook'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Facebook'),
+    '#default_value' => theme_get_setting('sankara_facebook'),
+  );
+
 }

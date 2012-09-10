@@ -9,7 +9,13 @@ global $base_url;
 <!--
                     <div id="second_nav"><?php print repro_user_menu_top($logged_in, $front_page) ?></div>
 -->
-<a href="<?php theme_get_setting('sankara_contact_page') ?>">Contact</a>
+<div id="second_nav">
+	<ul>
+		<li><a href="<?php print theme_get_setting('sankara_contact') ?>"><?php print t('Contact') ?></a></li>
+		<li><a href="<?php print theme_get_setting('sankara_facebook') ?>"><?php print t('Facebook') ?></a></li>
+		<li class="last"><a href="<?php print theme_get_setting('sankara_twitter') ?>"><?php print t('Twitter') ?></a></li>
+	</ul>
+</div>
 
                 </div><!--grid_9-->
                 <div class="clear"></div>
@@ -37,7 +43,9 @@ global $base_url;
         <div class="container_12">
             <div class="grid_8">
                 <div class="grid_8 alpha omega">
+<!--
                     <div class="breadcrumb"><?php print $breadcrumb; ?></div>
+-->
                     <div class="description">
                         <?php if (isset($messages)) { print $messages; } ?>
                         <h1><?php print $title; ?></h1>
